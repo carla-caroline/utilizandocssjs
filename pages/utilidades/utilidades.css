@@ -1,0 +1,38 @@
+
+.accordionContent{
+    width: 100%;
+}
+
+
+.inputs , .results{
+    width: 100%;
+    /* border: 1px solid black; */
+    padding: 5px; 
+    text-align: center;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 50px blue inset;
+}
+
+.inputs input , .results input{
+    border: none;
+    outline: none;
+    background-color: aquamarine;
+    text-align: center;
+}
+
+ input::selection{
+    background-color: black;
+}
+
+@media(min-width: 800px){
+.calculo{
+    display: flex;
+    justify-content: space-around;
+}
+
+.inputs , .results{
+    width: 45%;
+}
+}
+
